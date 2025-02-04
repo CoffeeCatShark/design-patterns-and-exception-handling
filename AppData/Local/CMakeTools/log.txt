@@ -1,0 +1,73 @@
+2024-05-01T23:34:59.880Z [info] [proc] Executing command: cmake --version
+2024-05-01T23:34:59.894Z [warning] [proc] The command: cmake --version failed with error: Error: spawn cmake ENOENT
+2024-05-01T23:34:59.898Z [info] [proc] Executing command: cmake -E capabilities
+2024-05-01T23:34:59.899Z [warning] [proc] The command: cmake -E capabilities failed with error: Error: spawn cmake ENOENT
+2024-05-01T23:34:59.909Z [debug] [main] Safe constructing new CMakeProject instance
+2024-05-01T23:34:59.910Z [debug] [variant] Constructing VariantManager
+2024-05-01T23:34:59.911Z [debug] [main] Constructing new CMakeProject instance
+2024-05-01T23:34:59.911Z [debug] [main] Starting CMake Tools second-phase init
+2024-05-01T23:34:59.912Z [debug] [expand] expanding ${workspaceFolder}
+2024-05-01T23:34:59.991Z [info] [variant] Loaded new set of variants
+2024-05-01T23:34:59.995Z [debug] [kit] Not reading non-existent kits file: C:\Users\omnie\AppData\Local\CMakeTools\cmake-tools-kits.json
+2024-05-01T23:34:59.996Z [debug] [expand] expanding cmake
+2024-05-01T23:35:00.140Z [debug] [kit] Not reading non-existent kits file: c:\Users\omnie\Documents\VsCode\.vscode\cmake-kits.json
+2024-05-01T23:35:00.140Z [debug] [expand] expanding C:/Users/omnie/Documents/VsCode
+2024-05-01T23:35:00.144Z [debug] [main] CMakeProject instance initialization complete.
+2024-05-01T23:35:00.158Z [info] [kit] Detected kits definition version change from undefined to 2. Silently scanning for kits.
+2024-05-01T23:35:00.158Z [debug] [expand] expanding cmake
+2024-05-01T23:35:00.189Z [debug] [kitsController] Rescanning for kits
+2024-05-01T23:35:00.190Z [debug] [kit] Scanning for Kits on system
+2024-05-01T23:35:00.192Z [debug] [kit] Scanning directory C:/Windows/system32 for compilers
+2024-05-01T23:35:00.192Z [debug] [kit] Scanning directory C:/Windows for compilers
+2024-05-01T23:35:00.192Z [debug] [kit] Scanning directory C:/Windows/System32/Wbem for compilers
+2024-05-01T23:35:00.192Z [debug] [kit] Scanning directory C:/Windows/System32/WindowsPowerShell/v1.0 for compilers
+2024-05-01T23:35:00.193Z [debug] [kit] Scanning directory C:/Windows/System32/OpenSSH for compilers
+2024-05-01T23:35:00.193Z [debug] [kit] Scanning directory C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common for compilers
+2024-05-01T23:35:00.193Z [debug] [kit] Scanning directory C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR for compilers
+2024-05-01T23:35:00.193Z [debug] [kit] Scanning directory C:/Users/omnie/AppData/Local/Microsoft/WindowsApps for compilers
+2024-05-01T23:35:00.193Z [debug] [kit] Scanning directory C:/Users/omnie/AppData/Local/Programs/Microsoft VS Code/bin for compilers
+2024-05-01T23:35:00.194Z [debug] [kit] Skipping scan of not existing path C:/Program Files/LLVM/bin
+2024-05-01T23:35:00.194Z [debug] [kit] Found 0 kits in directory C:/Program Files/LLVM/bin
+2024-05-01T23:35:00.194Z [debug] [kit] Skipping scan of not existing path C:/Program Files (x86)/LLVM/bin
+2024-05-01T23:35:00.194Z [debug] [kit] Found 0 kits in directory C:/Program Files (x86)/LLVM/bin
+2024-05-01T23:35:00.194Z [debug] [kit] Skipping scan of not existing path C:/msys64/mingw32/bin
+2024-05-01T23:35:00.194Z [debug] [kit] Found 0 kits in directory C:/msys64/mingw32/bin
+2024-05-01T23:35:00.194Z [debug] [kit] Skipping scan of not existing path C:/msys64/mingw64/bin
+2024-05-01T23:35:00.195Z [debug] [kit] Found 0 kits in directory C:/msys64/mingw64/bin
+2024-05-01T23:35:00.195Z [debug] [kit] Skipping scan of not existing path C:/msys64/clang32/bin
+2024-05-01T23:35:00.195Z [debug] [kit] Found 0 kits in directory C:/msys64/clang32/bin
+2024-05-01T23:35:00.195Z [debug] [kit] Skipping scan of not existing path C:/msys64/clang64/bin
+2024-05-01T23:35:00.195Z [debug] [kit] Found 0 kits in directory C:/msys64/clang64/bin
+2024-05-01T23:35:00.196Z [debug] [kit] Skipping scan of not existing path C:/msys64/clangarm64/bin
+2024-05-01T23:35:00.196Z [debug] [kit] Found 0 kits in directory C:/msys64/clangarm64/bin
+2024-05-01T23:35:00.196Z [debug] [kit] Skipping scan of not existing path C:/msys64/ucrt64/bin
+2024-05-01T23:35:00.197Z [debug] [kit] Found 0 kits in directory C:/msys64/ucrt64/bin
+2024-05-01T23:35:00.197Z [debug] [kit] Scanning directory C:/Windows/system32 for compilers
+2024-05-01T23:35:00.197Z [debug] [kit] Scanning directory C:/Windows/System32/Wbem for compilers
+2024-05-01T23:35:00.197Z [debug] [kit] Scanning directory C:/Windows for compilers
+2024-05-01T23:35:00.197Z [debug] [kit] Scanning directory C:/Windows/System32/WindowsPowerShell/v1.0 for compilers
+2024-05-01T23:35:00.198Z [debug] [kit] Scanning directory C:/Windows/System32/OpenSSH for compilers
+2024-05-01T23:35:00.198Z [debug] [kit] Scanning directory C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common for compilers
+2024-05-01T23:35:00.198Z [debug] [kit] Scanning directory C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR for compilers
+2024-05-01T23:35:00.198Z [debug] [kit] Scanning directory C:/Users/omnie/AppData/Local/Microsoft/WindowsApps for compilers
+2024-05-01T23:35:00.198Z [debug] [kit] Scanning directory C:/Users/omnie/AppData/Local/Programs/Microsoft VS Code/bin for compilers
+2024-05-01T23:35:00.198Z [debug] [kit] Skipping scan of not existing path C:/Program Files/LLVM/bin
+2024-05-01T23:35:00.198Z [debug] [kit] Skipping scan of not existing path C:/msys64/mingw32/bin
+2024-05-01T23:35:00.199Z [debug] [kit] Skipping scan of not existing path C:/msys64/mingw64/bin
+2024-05-01T23:35:00.199Z [debug] [kit] Skipping scan of not existing path C:/msys64/clang32/bin
+2024-05-01T23:35:00.199Z [debug] [kit] Skipping scan of not existing path C:/Program Files (x86)/LLVM/bin
+2024-05-01T23:35:00.199Z [debug] [kit] Skipping scan of not existing path C:/msys64/clang64/bin
+2024-05-01T23:35:00.199Z [debug] [kit] Skipping scan of not existing path C:/msys64/ucrt64/bin
+2024-05-01T23:35:00.199Z [debug] [kit] Skipping scan of not existing path C:/msys64/clangarm64/bin
+2024-05-01T23:35:00.204Z [debug] [kit] Found 0 kits in directory C:/Windows
+2024-05-01T23:35:00.220Z [debug] [kit] Found 0 kits in directory C:/Windows/System32/Wbem
+2024-05-01T23:35:00.222Z [debug] [kit] Found 0 kits in directory C:/Windows/System32/WindowsPowerShell/v1.0
+2024-05-01T23:35:00.222Z [debug] [kit] Found 0 kits in directory C:/Windows/System32/OpenSSH
+2024-05-01T23:35:00.223Z [debug] [kit] Found 0 kits in directory C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common
+2024-05-01T23:35:00.223Z [debug] [kit] Found 0 kits in directory C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR
+2024-05-01T23:35:00.224Z [debug] [kit] Found 0 kits in directory C:/Users/omnie/AppData/Local/Microsoft/WindowsApps
+2024-05-01T23:35:00.225Z [debug] [kit] Found 0 kits in directory C:/Users/omnie/AppData/Local/Programs/Microsoft VS Code/bin
+2024-05-01T23:35:00.356Z [debug] [kit] Found 0 kits in directory C:/Windows/system32
+2024-05-01T23:35:00.368Z [debug] [kitsController] Saving kits to C:\Users\omnie\AppData\Local\CMakeTools\cmake-tools-kits.json
+2024-05-01T23:35:00.368Z [debug] [kitsController] Saving new kits to C:\Users\omnie\AppData\Local\CMakeTools\cmake-tools-kits.json
+2024-05-01T23:35:56.867Z [debug] [extension] Deactivate CMakeTools
